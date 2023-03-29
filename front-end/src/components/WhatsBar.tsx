@@ -1,6 +1,5 @@
 import React from 'react';
-import '../styles/components/Header.css';
-import Logo from '../images/Vector.png';
+import WhatsApp from '../images/Vector.png';
 
 function Header() {
   return (
