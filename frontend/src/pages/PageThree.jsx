@@ -13,8 +13,8 @@ import icon8 from '../images/icon8.png';
 function PageThree() {
   return (
     <section className='bg-[#ffffff] h-full flex'>
-      <div className="h-full flex bg-[url('../images/image2.png')] bg-no-repeat bg-left-top h-max sm:bg-[length:250px_380px] mb-8 mt-8 ml-6 mr-6 md:bg-[length:400px_550px] mr-20 lg:bg-[length:400px_600px] mr-46">
-        <div className='flex-wrap sm:ml-72 mt-0 mr-8 md:ml-36 mt-16 lg:ml-60 mt-36 mr-60'>
+      <div className="h-full flex bg-[url('../images/image2.png')] bg-no-repeat bg-left-top h-max sm:bg-[length:250px_380px] mb-8 mt-8 ml-6 mr-6 md:bg-[length:300px_400px] mb-8 mt-8 ml-6 mr-6 lg:bg-[length:400px_600px] mr-46">
+        <div className='flex-wrap sm:ml-72 mt-1 mr-8 md:ml-80 mt-1 mr-8 lg:ml-60 mt-36 mr-60'>
           <h1 className='text-[#1B2033] font-bold sm:text-xl md:text-2xl lg:text-4xl'>
             OMNI TRAFO
           </h1>
