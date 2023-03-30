@@ -14,7 +14,10 @@ function PageThree() {
     <section className='bg-[#ffffff] h-full '>
       <div className="h-full bg-[url('../images/image2.png')] bg-no-repeat bg-left-top h-max sm:bg-[length:250px_380px] mb-6 mt-8 ml-6 mr-6 md:bg-[length:300px_400px] mt-8 ml-6 mr-6 lg:bg-[length:400px_600px] mr-46">
         <div className='flex-wrap sm:ml-72 mt-4 mb-6 mr-8 md:ml-80 mt-1 mr-8 lg:ml-96 mt-36 mr-60'>
-          <h1 className='text-[#1B2033] font-bold sm:text-xl md:text-2xl lg:text-4xl'>
+          <h1
+            data-testid='title-page-three'
+            className='text-[#1B2033] font-bold sm:text-xl md:text-2xl lg:text-4xl'
+          >
             OMNI TRAFO
             <hr className='bg-[#00B6DE] w-24 h-1' />
           </h1>
@@ -31,6 +34,7 @@ function PageThree() {
             <div className='flex'>
               <div className='flex flex-wrap justify-center text-center'>
                 <img
+                  data-testid='image1'
                   className='rounded-full bg-[#1C2C44] w-10 h-10 p-2'
                   src={icon1}
                   alt='icon1'
@@ -39,6 +43,7 @@ function PageThree() {
               </div>
               <div className='flex flex-wrap justify-center text-center'>
                 <img
+                  data-testid='image2'
                   className='rounded-full bg-[#1C2C44] w-10 h-10 p-2'
                   src={icon2}
                   alt='icon2'
@@ -47,6 +52,7 @@ function PageThree() {
               </div>
               <div className='flex flex-wrap justify-center text-center'>
                 <img
+                  data-testid='image3'
                   className='rounded-full bg-[#1C2C44] w-10 h-10 p-2'
                   src={icon3}
                   alt='icon3'
@@ -55,6 +61,7 @@ function PageThree() {
               </div>
               <div className='flex flex-wrap justify-center text-center'>
                 <img
+                  data-testid='image4'
                   className='rounded-full bg-[#1C2C44] w-10 h-10 p-2'
                   src={icon4}
                   alt='icon3'
@@ -65,6 +72,7 @@ function PageThree() {
             <div className='flex mt-4'>
               <div className='flex flex-wrap justify-center text-center'>
                 <img
+                  data-testid='image5'
                   className='rounded-full bg-[#1C2C44] w-10 h-10 p-2'
                   src={icon5}
                   alt='icon4'
@@ -73,6 +81,7 @@ function PageThree() {
               </div>
               <div className='flex flex-wrap justify-center text-center'>
                 <img
+                  data-testid='image6'
                   className='rounded-full bg-[#1C2C44] w-10 h-10 p-2'
                   src={icon6}
                   alt='icon5'
@@ -81,6 +90,7 @@ function PageThree() {
               </div>
               <div className='flex flex-wrap justify-center text-center'>
                 <img
+                  data-testid='image7'
                   className='rounded-full bg-[#1C2C44] w-10 h-10 p-2'
                   src={icon7}
                   alt='icon6'
@@ -89,6 +99,7 @@ function PageThree() {
               </div>
               <div className='flex flex-wrap justify-center text-center mb-20'>
                 <img
+                  data-testid='image8'
                   className='rounded-full bg-[#1C2C44] w-10 h-10 p-2'
                   src={icon8}
                   alt='icon6'

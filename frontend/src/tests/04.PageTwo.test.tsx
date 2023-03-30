@@ -39,17 +39,19 @@ describe('Testando página PageTwo', () => {
     const imgIntegracaoEl = screen.getByRole('img', {
       name: /sistema de proteção/i,
     });
-    const textIntegracaoEl = screen.getByText(/sistema de proteção/i);
+    const textIntegracaoEl = screen.getByText(/integração de dados/i);
 
     const imgGestaoEl = screen.getByRole('img', {
       name: /sistema de proteção/i,
     });
-    const textGestaoEl = screen.getByText(/sistema de proteção/i);
+    const textGestaoEl = screen.getByText(/gestão de ativos elétricoso/i);
 
     const imgDeteccaoEl = screen.getByRole('img', {
       name: /sistema de proteção/i,
     });
-    const textDeteccaoEl = screen.getByText(/sistema de proteção/i);
+    const textDeteccaoEl = screen.getByText(
+      /detecção de faltas na rede elétrica/i
+    );
 
     expect(imgProtecaoEl).toBeInTheDocument();
     expect(textProtecaoEl).toBeInTheDocument();
