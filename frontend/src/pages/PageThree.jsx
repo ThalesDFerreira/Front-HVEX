@@ -13,7 +13,7 @@ function PageThree() {
   return (
     <section className='bg-[#ffffff] h-full '>
       <div className="h-full bg-[url('../images/image2.png')] bg-no-repeat bg-left-top h-max sm:bg-[length:250px_380px] mb-6 mt-8 ml-6 mr-6 md:bg-[length:300px_400px] mt-8 ml-6 mr-6 lg:bg-[length:400px_600px] mr-46">
-        <div className='flex-wrap sm:ml-72 mt-4 mb-6 mr-8 md:ml-80 mt-1 mr-8 lg:ml-60 mt-36 mr-60'>
+        <div className='flex-wrap sm:ml-72 mt-4 mb-6 mr-8 md:ml-80 mt-1 mr-8 lg:ml-96 mt-36 mr-60'>
           <h1 className='text-[#1B2033] font-bold sm:text-xl md:text-2xl lg:text-4xl'>
             OMNI TRAFO
             <hr className='bg-[#00B6DE] w-24 h-1' />
