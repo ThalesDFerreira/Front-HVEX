@@ -9,7 +9,7 @@ function PageTwo() {
   return (
     <section className='bg-[#1B2033] h-full flex'>
       <div className='w-full sm:mt-20 mb-10 ml-10 mr-5'>
-        <h1 className='font-bold text-[#FFFFFF] sm:text-lg mt-5'>OMNI TRAFO</h1>
+        <h1 data-testid="title-page-two" className='font-bold text-[#FFFFFF] sm:text-lg mt-5'>OMNI TRAFO</h1>
         <h1 className='font-bold text-[#52E0FF] sm:text-lg mt-5'>
           É o dispositivo capaz de integrar os transformadores as redes
           inteligentes
