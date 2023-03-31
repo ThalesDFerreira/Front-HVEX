@@ -20,7 +20,7 @@ function PageThree() {
           >
             OMNI TRAFO
           </h1>
-          <hr className='bg-[#00B6DE] w-24 h-1' />
+          <hr className='bg-[#00B6DE] w-24 h-1 mt-2' />
           <h2 className='text-justify text-[#1C2C44] font-bold sm:text-xs mt-5 md:text-xs lg:text-lg'>
             Monitoramento inteligente de transformadores de distribuição
           </h2>

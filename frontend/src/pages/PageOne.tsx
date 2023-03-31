@@ -10,9 +10,9 @@ function PageOne() {
         <img className='w-[90rem]' src={usinas} alt='usina-template' />
       </div>
       <div className='sm:ml-10 mt-10 mr-10 md:mt-36 lg:mt-36 xl:mt-36'>
-        <h2 className='text-[#115678] font-bold sm:text-base lg:text-xl xl:text-3xl'>
+        <h1 className='text-[#115678] font-bold sm:text-base lg:text-xl xl:text-3xl'>
           Seja bem-vindo a era da energia inteligente
-        </h2>
+        </h1>
         <p className='sm:text-xs mt-4 lg:text-base xl:text-lg xl:mt-8'>
           As redes inteligentes são um caminho sem volta, o desenvolvimento e
           disceminação de dispositivos de medição e monitoramento são as
