@@ -47,6 +47,24 @@ function PageOne() {
                 Redução de Perdas técnicas e Não técnicas
               </h3>
             </li>
+            <li className='flex mt-3 mb-3 items-center'>
+              <img src={iconCerto} alt='-->' />
+              <h3 className='ml-1'>
+                Redução de Perdas técnicas e Não técnicas
+              </h3>
+            </li>
+            <li className='flex mt-3 mb-3 items-center'>
+              <img src={iconCerto} alt='-->' />
+              <h3 className='ml-1'>
+                Redução de Perdas técnicas e Não técnicas
+              </h3>
+            </li>
+            <li className='flex mt-3 mb-3 items-center'>
+              <img src={iconCerto} alt='-->' />
+              <h3 className='ml-1'>
+                Redução de Perdas técnicas e Não técnicas
+              </h3>
+            </li>
           </ul>
         </div>
       </div>

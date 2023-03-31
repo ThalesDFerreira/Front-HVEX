@@ -12,15 +12,15 @@ import icon8 from '../images/icon8.png';
 function PageThree() {
   return (
     <section className='bg-[#ffffff] h-full '>
-      <div className="h-full bg-[url('../images/image2.png')] bg-no-repeat bg-left-top h-max sm:bg-[length:250px_380px] mb-6 mt-8 ml-6 mr-6 md:bg-[length:300px_400px] mt-8 ml-6 mr-6 lg:bg-[length:400px_600px] mr-46">
-        <div className='flex-wrap sm:ml-72 mt-4 mb-6 mr-8 md:ml-80 mt-1 mr-8 lg:ml-96 mt-36 mr-60'>
+      <div className="h-full bg-[url('../images/image2.png')] bg-no-repeat bg-left-top h-max sm:bg-[length:250px_380px] mb-6 mt-8 ml-6 mr-6 md:bg-[length:300px_400px] mt-8 ml-6 mr-6 lg:bg-[length:300px_400px] mt-8 ml-6 mr-6 xl:bg-[length:300px_400px] mb-8 mr-24">
+        <div className='flex-wrap sm:ml-72 mt-4 mb-6 mr-8 md:ml-80 mt-1 mr-8 lg:ml-96 mt-36 mr-12'>
           <h1
             data-testid='title-page-three'
             className='text-[#1B2033] font-bold sm:text-xl md:text-2xl lg:text-4xl'
           >
             OMNI TRAFO
-            <hr className='bg-[#00B6DE] w-24 h-1' />
           </h1>
+          <hr className='bg-[#00B6DE] w-24 h-1' />
           <h2 className='text-justify text-[#1C2C44] font-bold sm:text-xs mt-5 md:text-xs lg:text-lg'>
             Monitoramento inteligente de transformadores de distribuição
           </h2>
@@ -69,7 +69,7 @@ function PageThree() {
                 <p>Detecção de faltas na rede elétrica</p>
               </div>
             </div>
-            <div className='flex mt-4'>
+            <div className='flex mt-4 ml-4'>
               <div className='flex flex-wrap justify-center text-center'>
                 <img
                   data-testid='image5'
@@ -77,7 +77,7 @@ function PageThree() {
                   src={icon5}
                   alt='icon4'
                 />
-                <p>Análise de Fator de potência</p>
+                <p className=''>Análise de Fator de potência</p>
               </div>
               <div className='flex flex-wrap justify-center text-center'>
                 <img

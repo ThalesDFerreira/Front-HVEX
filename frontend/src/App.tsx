@@ -5,6 +5,7 @@ import HomePage from './pages/Home';
 import PageOne from './pages/PageOne';
 import PageTwo from './pages/PageTwo';
 import PageThree from './pages/PageThree';
+import PageFour from './pages/PageFour';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <PageOne/>
       <PageTwo/>
       <PageThree/>
+      <PageFour/>
     </div>
   );
 }
