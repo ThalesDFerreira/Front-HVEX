@@ -4,7 +4,7 @@ import Logo from '../images/Vector.png';
 
 function Header() {
   return (
-    <div className='Header w-full flex bg-[#252835] items-center justify-between'>
+    <header className='Header w-full flex bg-[#252835] items-center justify-between'>
       <div className='flex sm:ml-10 md:ml-20 lg:ml-32'>
         <img
           className='img-logo sm:w-24 mt-3 mb-5 p-1 md:w-28 lg:w-30'
@@ -26,7 +26,7 @@ function Header() {
           <button type='button'>Comprar agora</button>
         </h5>
       </nav>
-    </div>
+    </header>
   );
 }
 
