@@ -11,9 +11,9 @@ import icon8 from '../images/icon8.png';
 
 function PageThree() {
   return (
-    <section className='bg-[#ffffff] h-full '>
-      <div className="h-full bg-[url('../images/image2.png')] bg-no-repeat bg-left-top h-max sm:bg-[length:250px_380px] mb-6 mt-8 ml-6 mr-6 md:bg-[length:300px_400px] mt-8 ml-6 mr-6 lg:bg-[length:300px_400px] mt-8 ml-6 mr-6 xl:bg-[length:300px_400px] mb-8 mr-24">
-        <div className='flex-wrap sm:ml-72 mt-4 mb-6 mr-8 md:ml-80 mt-1 mr-8 lg:ml-96 mt-36 mr-12'>
+    <section className='bg-[#ffffff] h-full'>
+      <div className="h-full bg-[url('../images/image2.png')] bg-no-repeat bg-left h-max sm:bg-[length:250px_380px] mt-8 ml-6 mr-6 md:bg-[length:270px_370px] mt-8 ml-6 mr-6 lg:bg-[length:300px_400px] mt-8 ml-6 mr-6 xl:bg-[length:300px_400px] mb-2 mr-24">
+        <div className='flex-wrap sm:ml-72 mt-4 mr-8 md:ml-80 mt-1 mr-8 lg:ml-96 mt-36 mr-12'>
           <h1
             data-testid='title-page-three'
             className='text-[#1B2033] font-bold sm:text-xl md:text-2xl lg:text-4xl'
@@ -97,7 +97,7 @@ function PageThree() {
                 />
                 <p>Medição de temperatura interna</p>
               </div>
-              <div className='flex flex-wrap justify-center text-center mb-20'>
+              <div className='flex flex-wrap justify-center text-center sm:mb-4 md:mb-16 lg:mb-16 xl:32'>
                 <img
                   data-testid='image8'
                   className='rounded-full bg-[#1C2C44] w-10 h-10 p-2'

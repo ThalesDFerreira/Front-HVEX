@@ -6,10 +6,10 @@ import usinas from '../images/usinas.png';
 function PageOne() {
   return (
     <section className='bg-[#FDFDFD] h-full flex'>
-      <div className='ml-10 mt-16 mb-16'>
+      <div className='ml-10 mt-28 mb-16'>
         <img className='w-[90rem]' src={usinas} alt='usina-template' />
       </div>
-      <div className='sm:ml-10 mt-10 mr-10 md:mt-36 lg:mt-36 xl:mt-36'>
+      <div className='sm:ml-10 mt-24 mr-10 md:mt-44 lg:mt-52 xl:mt-52'>
         <h1 className='text-[#115678] font-bold sm:text-base lg:text-xl xl:text-3xl'>
           Seja bem-vindo a era da energia inteligente
         </h1>
@@ -23,15 +23,11 @@ function PageOne() {
           <ul>
             <li className='flex mt-3 items-center'>
               <img src={iconCerto} alt='-->' />
-              <h3 className='ml-1'>
-                Monitoramento inteligente de ativos
-              </h3>
+              <h3 className='ml-1'>Monitoramento inteligente de ativos</h3>
             </li>
             <li className='flex mt-3 items-center'>
               <img src={iconCerto} alt='-->' />
-              <h3 className='ml-1'>
-                Melhoria dos indicadores de continuidade
-              </h3>
+              <h3 className='ml-1'>Melhoria dos indicadores de continuidade</h3>
             </li>
             <li className='flex mt-3 items-center'>
               <img src={iconCerto} alt='-->' />
@@ -40,24 +36,6 @@ function PageOne() {
             <li className='flex mt-3 items-center'>
               <img src={iconCerto} alt='-->' />
               <h3 className='ml-1'>Business Inteligence</h3>
-            </li>
-            <li className='flex mt-3 mb-3 items-center'>
-              <img src={iconCerto} alt='-->' />
-              <h3 className='ml-1'>
-                Redução de Perdas técnicas e Não técnicas
-              </h3>
-            </li>
-            <li className='flex mt-3 mb-3 items-center'>
-              <img src={iconCerto} alt='-->' />
-              <h3 className='ml-1'>
-                Redução de Perdas técnicas e Não técnicas
-              </h3>
-            </li>
-            <li className='flex mt-3 mb-3 items-center'>
-              <img src={iconCerto} alt='-->' />
-              <h3 className='ml-1'>
-                Redução de Perdas técnicas e Não técnicas
-              </h3>
             </li>
             <li className='flex mt-3 mb-3 items-center'>
               <img src={iconCerto} alt='-->' />
