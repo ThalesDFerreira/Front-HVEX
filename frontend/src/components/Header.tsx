@@ -1,14 +1,14 @@
 import React from 'react';
 import '../styles/components/Header.css';
-import Logo from '../images/Vector.png';
+import logo from '../images/Vector.png';
 
 function Header() {
   return (
-    <header className='Header w-full flex bg-[#252835] items-center justify-between'>
+    <header className='w-full flex bg-[#252835] items-center justify-between'>
       <div className='flex sm:ml-10 md:ml-20 lg:ml-32'>
         <img
           className='img-logo sm:w-24 mt-3 mb-5 p-1 md:w-28 lg:w-30'
-          src={Logo}
+          src={logo}
           alt='HVEX'
         />
       </div>

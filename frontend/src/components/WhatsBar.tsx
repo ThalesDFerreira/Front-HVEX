@@ -1,5 +1,5 @@
 import React from 'react';
-import WhatsApp from '../images/icon.png';
+import whatsApp from '../images/icon.png';
 
 function WhatsBar() {
   return (
@@ -8,7 +8,7 @@ function WhatsBar() {
         <button type='button'>
           <img
             className='bg-[#00B6DE] rounded-full sm:p-2 w-52 mt-72 mb-8 lg:mt-96 mb-12'
-            src={WhatsApp}
+            src={whatsApp}
             alt='WhatsApp'
           />
         </button>
