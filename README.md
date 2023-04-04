@@ -44,3 +44,6 @@ OBS: verifique se existe um container rodando, com o nome "front-hvex_frontend"
 6. Após realizar as devidas avaliações e visualizações digite o comando no seu terminal para baixar a aplicação docker (container):
 
 "docker-compose down"
+
+
+![Animação](https://user-images.githubusercontent.com/99926224/229714687-3a051a43-d1de-4c1c-852b-ca2169566e46.gif)
