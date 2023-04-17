@@ -3,7 +3,7 @@ Projeto Frent-End HVEX
 
 Descrição
 
-  O Projeto Frent-End HVEX é uma aplicação web mais direcionada a protfólio empresarial.
+  O Projeto Front-End HVEX é uma aplicação web mais direcionada a protfólio empresarial.
   O objetivo desse trabalho foi realizado em virtude de um desafio técnico pela empresa HVEX.
 
 
