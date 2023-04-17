@@ -1,4 +1,4 @@
-Projeto Frent-End HVEX
+Projeto Front-End HVEX
 
 
 Descrição
